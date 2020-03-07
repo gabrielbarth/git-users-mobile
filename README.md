@@ -1,17 +1,17 @@
-# githubUsers
+# githubUsers  <img src="https://image.flaticon.com/icons/png/512/25/25231.png" width="100" />
 
 :us: 
 <br>
-Mobile application to include github users that allows view its starred repositories and view these repositories thought webview. 
+Mobile application to include github users that allows view its starred repositories and view these repositories thought webview. Developed during GoStack10 bootcamp sixth challenge.
+
 <br>
 <span>&#x1f1e7;&#x1f1f7;</span>
 <br>
-Aplicativo mobile que permite o cadastro de usuários do github, a listagem dos repositórios favoritados e a vizualização destes repositórios através de webview.
+Aplicativo mobile que permite o cadastro de usuários do github, a listagem dos repositórios favoritados e a vizualização destes repositórios através de webview. Desenvolvido durante o desafio 06 do bootcamp GoStack10.
 
 
 ##  :mag_right: Main points covered on project / Principais pontos
 :us: 
-<br>
 - It was consumed GitHub API;
 - FlatList was used to list users and their favorite repositories;
 - There is a property in Flatlist that makes a peace of cake rendering informations from an endless list: the 'onEndReachedThreshold' and 'onEndReached'.Tthe first allow us to configure the percentage of the list that 'onEndReached' will be executed. This in turn perform a function (in this case, load more items).
@@ -22,7 +22,6 @@ Aplicativo mobile que permite o cadastro de usuários do github, a listagem dos 
 - It was used Reactotron: a tool that greatly facilitates debugging the code and visualizing the communication with API.
 
 <span>&#x1f1e7;&#x1f1f7;</span>
-<br>
 - Foi consumida a API do Github;
 - Utilizou-se FlatList para listagem dos usuários e para listagem dos seus repositórios favoritados;
 - Há uma propriedade em Flatlist que facilita muito a renderização de mais informações de uma lista infinda: o "onEndReachedThreshold' e 'onEndReached' - a primeira permite configurar em que percentual de decorrência da lista o 'onEndReached' será executado. Este, por sua vêz, executa uma função (neste caso, carrega mais itens)
@@ -37,12 +36,13 @@ Aplicativo mobile que permite o cadastro de usuários do github, a listagem dos 
 
 ##  :computer: View of interface / Visão da interface
 
-<div>
-  <img src="./app-images/vid.gif" width="400">
-  <img src="./app-images/img1.png" width="400">
-  <img src="./app-images/img2.png" width="400">
-  <img src="./app-images/img3.png" width="400">
-</div>
+<p align="center">
+  <img src="./images/vid" width="400">
+  <img src="./images/img1.png" width="400">
+  <img src="./images/img2.png" width="400">
+  <img src="./images/img3.png" width="400">
+</p>
+
 
 
 <br>

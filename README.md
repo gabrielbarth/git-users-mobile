@@ -3,8 +3,6 @@
 :us: 
 <br>
 Mobile application to include github users that allows view its starred repositories and view these repositories thought webview. 
-
-<br>
 <br>
 <span>&#x1f1e7;&#x1f1f7;</span>
 <br>

@@ -1,9 +1,8 @@
-# githubUsers  <img src="https://image.flaticon.com/icons/png/512/25/25231.png" width="100" />
+# githubUsers  <img src="https://image.flaticon.com/icons/png/512/25/25231.png" width="60" />
 
 :us: 
 <br>
 Mobile application to include github users that allows view its starred repositories and view these repositories thought webview. Developed during GoStack10 bootcamp sixth challenge.
-
 <br>
 <span>&#x1f1e7;&#x1f1f7;</span>
 <br>
@@ -42,9 +41,6 @@ Aplicativo mobile que permite o cadastro de usuários do github, a listagem dos 
   <img src="./images/img2.png" width="400">
   <img src="./images/img3.png" width="400">
 </p>
-
-
-
 <br>
 
 ##  :link: Project dependencies / Bibliotecas utilizadas

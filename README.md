@@ -1,30 +1,38 @@
 # githubUsers
 
-[BUILDING REDME...]
-
 :us: 
 <br>
-
+Mobile application to include github users that allows view its starred repositories and view these repositories thought webview. 
 
 <br>
 <br>
 <span>&#x1f1e7;&#x1f1f7;</span>
 <br>
+Aplicativo mobile que permite o cadastro de usuários do github, a listagem dos repositórios favoritados e a vizualização destes repositórios através de webview.
 
 
 ##  :mag_right: Main points covered on project / Principais pontos
 :us: 
 <br>
-
-- 
--
--
-
+- It was consumed GitHub API;
+- FlatList was used to list users and their favorite repositories;
+- There is a property in Flatlist that makes a peace of cake rendering informations from an endless list: the 'onEndReachedThreshold' and 'onEndReached'.Tthe first allow us to configure the percentage of the list that 'onEndReached' will be executed. This in turn perform a function (in this case, load more items).
+- In react-native we can access navigation through the class component props;
+- A property has been added in the state to ascertain when there is request the API and showing the ActivityIndicator component (loading signal);
+- The user reference for calling the user screen was passed through props;
+- The reference to open Repository screen was also passed through props when user chooses this repository on list (using webview).
+- It was used Reactotron: a tool that greatly facilitates debugging the code and visualizing the communication with API.
 
 <span>&#x1f1e7;&#x1f1f7;</span>
 <br>
-
-
+- Foi consumida a API do Github;
+- Utilizou-se FlatList para listagem dos usuários e para listagem dos seus repositórios favoritados;
+- Há uma propriedade em Flatlist que facilita muito a renderização de mais informações de uma lista infinda: o "onEndReachedThreshold' e 'onEndReached' - a primeira permite configurar em que percentual de decorrência da lista o 'onEndReached' será executado. Este, por sua vêz, executa uma função (neste caso, carrega mais itens)
+- Em react-native podemos acessar a navegação através das props do componente de classe;
+- Foi adicionado uma propriedade no estado para averiguar o momento de solicitação a API e mostrar o componente ActivityIndicator (sinal de loading);
+- Foi passado através de props a referência do usuário para a chamada da tela de usuário;
+- Também foi passado através de props a referência para abrir o repositório pressionado na tela Repository (na qual utiliza webview).
+- Foi utilizado Reactotron, ferramenta que facilita muito o debug do código e vizualização das informações da comunicação com a API.
 
 <br>
 
@@ -32,9 +40,10 @@
 ##  :computer: View of interface / Visão da interface
 
 <div>
-  <img src="./app-images/app1.png" width="420">
-  <img src="./app-images/app2.png" width="420">
-  <img src="./app-images/app3.png" width="420">
+  <img src="./app-images/vid.gif" width="400">
+  <img src="./app-images/img1.png" width="400">
+  <img src="./app-images/img2.png" width="400">
+  <img src="./app-images/img3.png" width="400">
 </div>
 
 
@@ -43,21 +52,24 @@
 ##  :link: Project dependencies / Bibliotecas utilizadas
 
 :ballot_box_with_check: **<a href="https://pt-br.reactjs.org/">react</a>**     `// react lib` <br>
-:ballot_box_with_check: **<a href="https://www.npmjs.com/package/react-dom">react-dom</a>**    `// allows to load react through <script> tag ` <br>
-:ballot_box_with_check: **<a href="https://www.npmjs.com/package/react-router-dom">react-router-dom</a>**         `// DOM bindings for React Router ` <br>
-:ballot_box_with_check: **<a href="https://www.npmjs.com/package/react-icons">react-icons</a>**            `// allows to use icons from several libs`  <br>
+:ballot_box_with_check: **<a href="https://www.npmjs.com/package/react-icons">react-native-vector-icons</a>**      `// allows to use icons from several libs`  <br>
 :ballot_box_with_check: **<a href="https://github.com/axios/axios">axios</a>**            `// Promise based HTTP client for the browser and node.js`  <br>
 :ballot_box_with_check: **<a href="https://styled-components.com/">styled-components</a>**            `// allows to write actual CSS code to style components`  <br>
-:ballot_box_with_check: **<a href="https://www.npmjs.com/package/prop-types">prop-types</a>**            `// Runtime type checking for React props and similar objects`  <br>
+:ballot_box_with_check: **<a href="https://www.npmjs.com/package/prop-types">prop-types</a>**            `// used to document the intended types of properties passed to components`  <br>
+:ballot_box_with_check: **<a href="https://reactnavigation.org/">react-navigation</a>**            `// allows the navigation between screens. This lib requires others libs such specifies documentation`  <br>
+:ballot_box_with_check: **<a href="https://github.com/react-native-community/react-native-webview">react-native-webview</a>**            `// cross-platform WebView for React Native - allows open a site like a browser`  <br>
+:ballot_box_with_check: **<a href="https://github.com/infinitered/reactotron">reactotron-react-native</a>**            `// desktop app for inspecting React Native projects`  <br>
+:ballot_box_with_check: **<a href="https://github.com/react-native-community/async-storage">@react-native-community/async-storage</a>**            `// asynchronous, persistent, key-value storage system for React Native`  <br>
 
 
 **Development libs / Bibliotecas de desenvolvimento utilizadas no projeto:**
+<br>
+:ballot_box_with_check: **<a href="https://babeljs.io/">babel</a>**    `// JS Compiler. Allows to use next generation JavaScript, today` 
 <br>
 :ballot_box_with_check: **<a href="https://eslint.org/">eslint</a>**    `// finds and fixes code errors` 
 <br>
 :ballot_box_with_check: **<a href="https://prettier.io/">prettier</a>**  `// makes code prettier` 
 <br>
-
 
 
 <h1 align="center">
@@ -146,7 +158,7 @@ Exemplo de código:
 
 Resultado:
 
-![WebView](.github/exemplo-web-view.png)
+<img src="https://github.com/Rocketseat/bootcamp-gostack-desafio-06/raw/master/.github/exemplo-web-view.png" />
 
 ## 📅 Entrega
 

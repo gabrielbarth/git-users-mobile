@@ -1,4 +1,14 @@
-# githubUsers  <img src="https://image.flaticon.com/icons/png/512/25/25231.png" width="60" />
+<h1 align="center">
+   <img src="https://image.flaticon.com/icons/png/512/25/25231.png" width="60" />
+  <br>
+  Github Users mobile application
+</h1>
+
+<h3 align="center">
+:computer: Web version <a href="https://github.com/gabrielbarth/git-repos-web">here</a>
+</h3>
+
+
 
 :us: 
 <br>
